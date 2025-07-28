@@ -1,0 +1,86 @@
+  html {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fffdfd;
+    overflow-x: hidden;
+  }
+  
+  .full-screen-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    background-color: rgb(136, 136, 136);
+    color: white;
+  }
+
+  .navbarColor {
+    background: linear-gradient(to right, #7500c4, #3700ff);
+    
+  }
+
+  .aboutSection {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .iconLogos {
+    max-height: 40px;
+    margin-right: 0.5rem;
+  }
+
+  .iconLogos:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
+  .banner {
+    width: 100%;
+    
+  }
+  .list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .list-group-item:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.3s ease;
+  }
+
+  .textnavbar {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+  .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  transition: color 0.3s ease;
+}
+.card:hover .card-title {
+  color: #350097; /* Bootstrap blue or whatever color fits your brand */
+}
