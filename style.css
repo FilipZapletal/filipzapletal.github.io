@@ -29,7 +29,7 @@
   }
 
   .navbarColor {
-    background: linear-gradient(to right, #7500c4, #3700ff);
+    background: linear-gradient(to bottom, #000000, #272727);
     
   }
 
@@ -39,7 +39,7 @@
   }
 
   .iconLogos {
-    max-height: 40px;
+    max-height: 25px;
     margin-right: 0.5rem;
   }
 
@@ -54,9 +54,9 @@
   }
   .list-group-item {
     background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    padding: 10px;
-    margin-bottom: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
   }
 
   .list-group-item:hover {
@@ -65,7 +65,7 @@
   }
 
   .textnavbar {
-    color: rgb(255, 255, 255);
+    color: rgb(253, 253, 253);
     font-weight: bold;
   }
 
@@ -82,5 +82,33 @@
   transition: color 0.3s ease;
 }
 .card:hover .card-title {
-  color: #350097; /* Bootstrap blue or whatever color fits your brand */
+  color: #00a6c4; /* Bootstrap blue or whatever color fits your brand */
+}
+
+  .contactIcon {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+  }
+
+  .contactIcon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
+  .footerText {
+    color: white;
+    font-size: 14px;
+  }
+
+  .navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Optional: hover effect */
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #00a6c4 !important; /* or whatever you like */
 }
