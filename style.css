@@ -8,8 +8,10 @@
   body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #fffdfd;
+    background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
+    color: #fff;
     overflow-x: hidden;
+    
   }
   
   .full-screen-img {
@@ -53,16 +55,22 @@
     
   }
   .list-group-item {
-    background-color: #f8f9fa;
-    border: 1px solid #e0e0e0;
-    padding: 15px;
-    margin-bottom: 15px;
-  }
+  background-color: rgba(30, 30, 30, 0.8);
+  border: 1px solid rgba(120, 255, 255, 0.1);
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-  .list-group-item:hover {
-    background-color: #e9ecef;
-    transition: background-color 0.3s ease;
-  }
+.list-group-item:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+  transform: scale(1.02);
+}
+
 
   .textnavbar {
     color: rgb(253, 253, 253);
@@ -71,6 +79,9 @@
 
   .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   background-color: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .card:hover {
@@ -112,3 +123,38 @@
 .navbar .navbar-brand:hover {
   color: #00a6c4 !important; /* or whatever you like */
 }
+
+.about-glass {
+  background: linear-gradient(135deg, rgba(20, 20, 20, 0.6), rgba(19, 19, 19, 0.6));
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+  padding: 1rem;
+  color: #f1f1f1;
+}
+
+.skills-glass {
+  background: linear-gradient(135deg, rgba(20, 20, 20, 0.6), rgba(45, 45, 45, 0.6));
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 6px 24px rgba(0, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-glass:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 255, 255, 0.15);
+}
+
+.projectsSectionWrapper {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af); /* Blue-ish gradient */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 1rem;
+}
+
