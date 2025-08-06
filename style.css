@@ -52,11 +52,18 @@
 
   .banner {
     width: 100%;
-    
+    object-fit: cover;
+    height: 20vh;
+    /* border-bottom: 2px solid rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.2); */
+    border-bottom: 2px solid rgba(22, 97, 196, 0.2);
+    box-shadow: 0 0 10px 5px rgba(22, 97, 196, 0.2);
+
+    opacity: 0.8;
   }
   .list-group-item {
   background-color: rgba(30, 30, 30, 0.8);
-  border: 1px solid rgba(120, 255, 255, 0.1);
+  border: 1px solid rgba(22, 97, 196, 0.1);
   padding: 12px 20px;
   margin-bottom: 12px;
   color: #f1f1f1;
@@ -67,7 +74,7 @@
 }
 
 .list-group-item:hover {
-  background-color: rgba(0, 255, 255, 0.1);
+  background-color: rgba(22, 97, 196, 0.1);
   transform: scale(1.02);
 }
 
@@ -127,10 +134,10 @@
 .about-glass {
   background: linear-gradient(135deg, rgba(20, 20, 20, 0.6), rgba(19, 19, 19, 0.6));
   border-radius: 20px;
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px 0 rgba(0, 255, 255, 0.1);
-  border: 1px solid rgba(0, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(22, 97, 196, 0.1);
+  border: 1px solid rgba(22, 97, 196, 0.15);
   padding: 1rem;
   color: #f1f1f1;
 }
@@ -138,21 +145,22 @@
 .skills-glass {
   background: linear-gradient(135deg, rgba(20, 20, 20, 0.6), rgba(45, 45, 45, 0.6));
   border-radius: 16px;
-  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  box-shadow: 0 6px 24px rgba(0, 255, 255, 0.1);
-  border: 1px solid rgba(0, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 24px rgba(22, 97, 196, 0.1);
+  border: 1px solid rgba(22, 97, 196, 0.15);
   color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 1rem;
 }
 
 .skills-glass:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 28px rgba(0, 255, 255, 0.15);
+  box-shadow: 0 12px 28px rgba(22, 97, 196, 0.15);
 }
 
 .projectsSectionWrapper {
-  background: linear-gradient(135deg, #2c3e50, #4ca1af); /* Blue-ish gradient */
+  background: linear-gradient(135deg, #1b2631, #0b338a); /* Blue-ish gradient */
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 1rem;
