@@ -100,7 +100,7 @@
   transition: color 0.3s ease;
 }
 .card:hover .card-title {
-  color: rgba(22, 97, 196, 0.2); /* Bootstrap blue or whatever color fits your brand */
+  color: rgba(22, 97, 196); /* Bootstrap blue or whatever color fits your brand */
 }
 
   .contactIcon {
@@ -128,7 +128,7 @@
 /* Optional: hover effect */
 .navbar .nav-link:hover,
 .navbar .navbar-brand:hover {
-  color: rgba(22, 97, 196, 0.2) !important; /* or whatever you like */
+  color: rgb(22, 97, 196) !important; /* or whatever you like */
 }
 
 .about-glass {
