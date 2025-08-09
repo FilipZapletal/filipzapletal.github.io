@@ -6,7 +6,7 @@
   }
 
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
     color: #fff;
@@ -24,6 +24,10 @@
     margin: 0;
     padding: 0;
   }
+  
+  h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
 
   footer {
     background-color: rgb(136, 136, 136);
@@ -164,6 +168,11 @@
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 1rem;
+}
+
+.navbar-toggler {
+  background-color: rgba(234, 237, 241, 0.5);
+  border-color: rgba(222, 229, 238, 0.5);
 }
 
 #waveCanvas {
