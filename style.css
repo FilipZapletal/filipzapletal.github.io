@@ -58,13 +58,11 @@
     width: 100%;
     object-fit: cover;
     height: 20vh;
-    /* border-bottom: 2px solid rgba(0, 255, 255, 0.2);
-    box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.2); */
     border-bottom: 2px solid rgba(22, 97, 196, 0.2);
     box-shadow: 0 0 10px 5px rgba(22, 97, 196, 0.2);
 
-    opacity: 0.8;
   }
+  
   .list-group-item {
   background-color: rgba(30, 30, 30, 0.8);
   border: 1px solid rgba(22, 97, 196, 0.1);

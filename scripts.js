@@ -43,9 +43,9 @@ class Wave {
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
     ctx.strokeStyle = `rgba(0, 150, 255, ${this.alpha})`;
-    ctx.lineWidth = 2;
+    ctx.lineWidth = 1;
     ctx.shadowColor = `rgba(0, 150, 255, ${this.alpha})`;
-    ctx.shadowBlur = 10;
+    ctx.shadowBlur = 15;
     ctx.stroke();
   }
 }
@@ -54,7 +54,7 @@ class Wave {
 let lastWaveTime = 0;
 window.addEventListener('mousemove', e => {
   const now = Date.now();
-  if (now - lastWaveTime > 100) { // 1 wave every 100ms max
+  if (now - lastWaveTime > 150) { // 1 wave every 150ms max
     waves.push(new Wave(e.clientX, e.clientY));
     lastWaveTime = now;
   }
